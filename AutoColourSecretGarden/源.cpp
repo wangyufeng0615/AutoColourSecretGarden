@@ -50,12 +50,12 @@ int main(int argc, char **argv)
             floodFill(image4, Point(x, y), scalar1, &ccomp, Scalar(0, 0, 0), Scalar(0, 0, 0));  
         }
 
-        x += 10;    //步进
+        x += 3;    //步进
 
         //换行
         if (x >= image4.cols) 
         {
-            y += 10;
+            y += 3;
             x = 0;
         }
 
